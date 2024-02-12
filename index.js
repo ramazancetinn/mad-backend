@@ -5,7 +5,7 @@ const path = require("path");
 var cors = require("cors");
 
 const app = express();
-const port = 3000;
+const port = 5000;
 const madnessDataFile = "maddness.txt";
 app.use(cors());
 // Middleware for parsing JSON and urlencoded data
